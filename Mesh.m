@@ -1,8 +1,7 @@
+%Piyush Maiti%
+% NIIN 550, Spring 2018 %
 trg = [1,5,6;1,2,6;3,7,8;8,4,7;1,2,4;4,3,1;6,5,8;5,7,8;2,4,6;6,4,8;1,5,7;1,3,7];
 vert = [0,0,0;0,0,256;0,256,0;0,256,256;256,0,0;256,0,256;256,256,0;256,256,256];
-
-figure;
-clf;
+figure;clf;
 p = ViewMesh(vert,trg);
 camlight;
-lighting gouraud 
